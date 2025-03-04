@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pwned!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: red;
+            text-align: center;
+            font-size: 2em;
+        }
+        .message {
+            animation: flicker 1s infinite alternate;
+        }
+        @keyframes flicker {
+            from { opacity: 1; }
+            to { opacity: 0.3; }
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <p>YOU'VE BEEN PWNED!</p>
+        <p>(It's a prank 😆)</p>
+    </div>
+</body>
+</html>
